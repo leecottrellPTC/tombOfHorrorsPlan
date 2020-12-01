@@ -21,5 +21,5 @@ urlpatterns = [
     #url(r'^admin/', admin.site.urls),
     url(r'^$', views.home_page, name='home'),
     #r is a regular expression
-    #basicall says empty url takes us home
+    #basically says empty url takes us home
 ]

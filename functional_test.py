@@ -4,8 +4,9 @@ class FunctionalTest(unittest.TestCase):
     def setUp(self):
         fireFoxOptions = webdriver.FirefoxOptions()
         fireFoxOptions.headless=True
-        #self.browser = webdriver.Firefox(options=fireFoxOptions)
-        self.browser = webdriver.Firefox()
+        #simply choose the desired head option
+        self.browser = webdriver.Firefox(options=fireFoxOptions)
+        #self.browser = webdriver.Firefox()
         self.browser.get('http://localhost:8000')
     def tearDown(self):
         self.browser.quit()
