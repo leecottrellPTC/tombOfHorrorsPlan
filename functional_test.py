@@ -1,6 +1,7 @@
 from selenium import webdriver
 import unittest
 class FunctionalTest(unittest.TestCase):
+    
     def setUp(self):
         fireFoxOptions = webdriver.FirefoxOptions()
         fireFoxOptions.headless=True
@@ -8,12 +9,22 @@ class FunctionalTest(unittest.TestCase):
         self.browser = webdriver.Firefox(options=fireFoxOptions)
         #self.browser = webdriver.Firefox()
         self.browser.get('http://localhost:8000')
-    def tearDown(self):
-        self.browser.quit()
+    #def tearDown(self):
+    #    self.browser.quit()
     
     #@unittest.SkipTest
     def test_title(self):
-        self.assertIn('Django', self.browser.title, 'Wrong Title')
+        self.assertIn('Tomb of Horrors', self.browser.title, 'Wrong Title')
+
+    def testLink(self):
+        self.browser.get('http://localhost:8000')
+        loreLink = self.browser.find_element_by_partial_link_text("Lore").click()
+        self.assertIn('Lore', self.browser.title, 'Lore Link did not take to correct page')
+        
+
+
+
+        
 
 if __name__ == '__main__':
     #if calls the class if it is not instantiated elsewhere
