@@ -3,10 +3,13 @@ from django.urls import resolve
 from tombApp.views import home_page
 from tombApp.views import lore_page
 from django.http import HttpRequest
+import unittest
 
 
 # Create your tests here.
 class HomePageTest(TestCase):
+    
+    @unittest.skip('just because')
     def testHomePage(self):
         found = resolve('/')
         self.assertEqual(found.func, home_page, "Home resolves incorrectly")
@@ -30,6 +33,10 @@ class HomePageTest(TestCase):
         self.assertIn('href="lore.html"', html, 'Link to lore.html not found')
         self.assertIn('href="home.html"', html, 'Link to home.html not found')
         
-        
+    def testImageOnHome(self):
+        request = HttpRequest()
+        response = lore_page(request)
+        html = response.content.decode('utf8')
+        self.assertIn('src="images/acererak.jpg"', html, 'Acererak image code not on page')
         
 
