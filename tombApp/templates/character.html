@@ -40,19 +40,20 @@
             </div>
             <div class="col-md-10">
                 <form method="POST">
+                    {% csrf_token %}
                     <div class="form-group">
                         <label for="charname">What is your character's name</label>
                         <input type="text" class="form-control" id="charname" maxlength="40" placeholder="Enter a character name, less than 40 characters" required>
                     </div>
                     <div class="form-group">
-                        <label for="hitpoints">What is your character's name</label>
+                        <label for="hitpoints">What is your character's hit points</label>
                         <input type="number" class="form-control" id="hitpoints" min="1" max="200" required>
                     </div>
                     <div class="form-group">
                         <label for="armor">What is your character's armor class</label>
                         <input type="number" class="form-control" id="armor" min="10" max="20" required>
                     </div>
-                    <input type="button" class="btn-primary" value="Create character">
+                    <input type="submit" class="btn-primary" value="Create character">
                 </form>
             </div>
         </div>

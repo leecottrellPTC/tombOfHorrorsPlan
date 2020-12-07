@@ -21,9 +21,11 @@ class FunctionalTest(unittest.TestCase):
         loreLink = self.browser.find_element_by_partial_link_text("Lore").click()
         self.assertIn('Lore', self.browser.title, 'Lore Link did not take to correct page')
         
-    def testCharCreate(self:)
+    def testCharCreate(self):
         self.browser.get('http://localhost:8000/character.html')
-        
+        self.browser.find_element_by_id("charname").sendkeys("Kaladin")
+        self.browser.find_element_by_id("hitpoints").sendkeys("60")
+        self.browser.find_element_by_id("armor").sendkeys("15")
 
 
         
