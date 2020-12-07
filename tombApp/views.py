@@ -7,3 +7,6 @@ def home_page(request):
 
 def lore_page(request):
     return render(request, 'lore.html')
+
+def character_page(request):
+    return render(request, 'character.html')
