@@ -12,7 +12,7 @@ class HomePageTest(TestCase):
     @unittest.skip('just because')
     def testHomePage(self):
         found = resolve('/')
-        self.assertEqual(found.func, home_page, "Home resolves incorrectly")
+        self.assertEqual(found.func, home_page,"Home resolves incorrectly")
 
     def testHomePageH1(self):
         request = HttpRequest()
@@ -37,6 +37,6 @@ class HomePageTest(TestCase):
         request = HttpRequest()
         response = lore_page(request)
         html = response.content.decode('utf8')
-        self.assertIn('src="images/acererak.jpg"', html, 'Acererak image code not on page')
+        self.assertIn('src="/static/images/acererak.jpg"', html, 'Acererak image code not on page')
         
 

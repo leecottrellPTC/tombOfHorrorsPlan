@@ -31,9 +31,9 @@ class FunctionalTest(unittest.TestCase):
 
         self.assertIn('Kaladin', self.browser.title, 'Name not in title')
         hp = self.browser.find_element_by_id("hp")
-        self.assertEqual("60", hp.text, "HP is incorrect")
+        self.assertEqual("60", hp.text,"HP is incorrect")
         ac = self.browser.find_element_by_id("ac")
-        self.assertEqual("15", ac.text, "AC is incorrect")
+        self.assertEqual("15", ac.text,"AC is incorrect")
         
 
 
