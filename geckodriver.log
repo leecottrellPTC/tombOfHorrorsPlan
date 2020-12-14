@@ -1,10 +1,10 @@
 1606766944169	geckodriver	INFO	Listening on 127.0.0.1:15339
-1606766947236	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\lee_c\\AppData\\Local\\Temp\\rust_mozprofilegOK5zJ"
+1606766947236	mozrunner::runner	INFO	Running command:"C:\\Program Files\\Mozilla Firefox\\firefox.exe""--marionette""-foreground""-no-remote""-profile""C:\\Users\\lee_c\\AppData\\Local\\Temp\\rust_mozprofilegOK5zJ"
 1606766994867	geckodriver	INFO	Listening on 127.0.0.1:15396
-1606766997898	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\lee_c\\AppData\\Local\\Temp\\rust_mozprofileNOWt0E"
+1606766997898	mozrunner::runner	INFO	Running command:"C:\\Program Files\\Mozilla Firefox\\firefox.exe""--marionette""-foreground""-no-remote""-profile""C:\\Users\\lee_c\\AppData\\Local\\Temp\\rust_mozprofileNOWt0E"
 Can't find symbol 'eglSwapBuffersWithDamageEXT'.
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings:"get: No settings file exists, new profile?" (new Error("","(unknown module)"))
 1606767000749	Marionette	INFO	Listening on port 15404
 1606767001041	Marionette	WARN	TLS certificate errors will be ignored for this session
 1606767001436	Marionette	INFO	Stopped listening on port 15404
@@ -13,10 +13,10 @@ console.warn: services.settings: main/partitioning-exempt-urls sync interrupted 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
 1606767079177	geckodriver	INFO	Listening on 127.0.0.1:15478
-1606767082220	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\lee_c\\AppData\\Local\\Temp\\rust_mozprofileQbWefQ"
+1606767082220	mozrunner::runner	INFO	Running command:"C:\\Program Files\\Mozilla Firefox\\firefox.exe""--marionette""-foreground""-no-remote""-profile""C:\\Users\\lee_c\\AppData\\Local\\Temp\\rust_mozprofileQbWefQ"
 Can't find symbol 'eglSwapBuffersWithDamageEXT'.
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings:"get: No settings file exists, new profile?" (new Error("","(unknown module)"))
 1606767085001	Marionette	INFO	Listening on port 15487
 1606767085352	Marionette	WARN	TLS certificate errors will be ignored for this session
 1606767085720	Marionette	INFO	Stopped listening on port 15487
@@ -31,10 +31,10 @@ console.warn: services.settings: main/partitioning-exempt-urls sync interrupted 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
 1606767095362	geckodriver	INFO	Listening on 127.0.0.1:15550
-1606767098404	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\lee_c\\AppData\\Local\\Temp\\rust_mozprofiles1eThw"
+1606767098404	mozrunner::runner	INFO	Running command:"C:\\Program Files\\Mozilla Firefox\\firefox.exe""--marionette""-foreground""-no-remote""-profile""C:\\Users\\lee_c\\AppData\\Local\\Temp\\rust_mozprofiles1eThw"
 Can't find symbol 'eglSwapBuffersWithDamageEXT'.
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings:"get: No settings file exists, new profile?" (new Error("","(unknown module)"))
 1606767101188	Marionette	INFO	Listening on port 15558
 1606767101560	Marionette	WARN	TLS certificate errors will be ignored for this session
 1606767101941	Marionette	INFO	Stopped listening on port 15558
@@ -46,18 +46,18 @@ console.warn: services.settings: main/partitioning-exempt-urls sync interrupted 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
 1606767214538	geckodriver	INFO	Listening on 127.0.0.1:15629
-1606767217582	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\lee_c\\AppData\\Local\\Temp\\rust_mozprofilejvcYLR"
+1606767217582	mozrunner::runner	INFO	Running command:"C:\\Program Files\\Mozilla Firefox\\firefox.exe""--marionette""-headless""-foreground""-no-remote""-profile""C:\\Users\\lee_c\\AppData\\Local\\Temp\\rust_mozprofilejvcYLR"
 *** You are running in headless mode.
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings:"get: No settings file exists, new profile?" (new Error("","(unknown module)"))
 1606767219616	Marionette	INFO	Listening on port 15637
 1606767219716	Marionette	WARN	TLS certificate errors will be ignored for this session
 1606767220130	Marionette	INFO	Stopped listening on port 15637
 1606767238681	geckodriver	INFO	Listening on 127.0.0.1:15683
-1606767241737	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\lee_c\\AppData\\Local\\Temp\\rust_mozprofilezuc7d4"
+1606767241737	mozrunner::runner	INFO	Running command:"C:\\Program Files\\Mozilla Firefox\\firefox.exe""--marionette""-foreground""-no-remote""-profile""C:\\Users\\lee_c\\AppData\\Local\\Temp\\rust_mozprofilezuc7d4"
 Can't find symbol 'eglSwapBuffersWithDamageEXT'.
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings:"get: No settings file exists, new profile?" (new Error("","(unknown module)"))
 1606767244405	Marionette	INFO	Listening on port 15691
 1606767244871	Marionette	WARN	TLS certificate errors will be ignored for this session
 1606767245225	Marionette	INFO	Stopped listening on port 15691
@@ -70,43 +70,43 @@ console.warn: services.settings: main/partitioning-exempt-urls sync interrupted 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
 1606860423964	geckodriver	INFO	Listening on 127.0.0.1:23948
-1606860427027	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\lee_c\\AppData\\Local\\Temp\\rust_mozprofileyrtwf0"
+1606860427027	mozrunner::runner	INFO	Running command:"C:\\Program Files\\Mozilla Firefox\\firefox.exe""--marionette""-headless""-foreground""-no-remote""-profile""C:\\Users\\lee_c\\AppData\\Local\\Temp\\rust_mozprofileyrtwf0"
 *** You are running in headless mode.
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings:"get: No settings file exists, new profile?" (new Error("","(unknown module)"))
 1606860430879	Marionette	INFO	Listening on port 23956
 1606860431166	Marionette	WARN	TLS certificate errors will be ignored for this session
 1606860431760	Marionette	INFO	Stopped listening on port 23956
 JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
 1606860432591	geckodriver	INFO	Listening on 127.0.0.1:24009
-1606860435636	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\lee_c\\AppData\\Local\\Temp\\rust_mozprofilet361Rk"
+1606860435636	mozrunner::runner	INFO	Running command:"C:\\Program Files\\Mozilla Firefox\\firefox.exe""--marionette""-headless""-foreground""-no-remote""-profile""C:\\Users\\lee_c\\AppData\\Local\\Temp\\rust_mozprofilet361Rk"
 *** You are running in headless mode.
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings:"get: No settings file exists, new profile?" (new Error("","(unknown module)"))
 1606860437670	Marionette	INFO	Listening on port 24017
 1606860437799	Marionette	WARN	TLS certificate errors will be ignored for this session
 1606860438366	Marionette	INFO	Stopped listening on port 24017
 1606860550912	geckodriver	INFO	Listening on 127.0.0.1:24097
-1606860553955	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\lee_c\\AppData\\Local\\Temp\\rust_mozprofilegqLzuO"
+1606860553955	mozrunner::runner	INFO	Running command:"C:\\Program Files\\Mozilla Firefox\\firefox.exe""--marionette""-headless""-foreground""-no-remote""-profile""C:\\Users\\lee_c\\AppData\\Local\\Temp\\rust_mozprofilegqLzuO"
 *** You are running in headless mode.
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings:"get: No settings file exists, new profile?" (new Error("","(unknown module)"))
 1606860556042	Marionette	INFO	Listening on port 24105
 1606860556090	Marionette	WARN	TLS certificate errors will be ignored for this session
 1606860556779	Marionette	INFO	Stopped listening on port 24105
 1606860557396	geckodriver	INFO	Listening on 127.0.0.1:24156
-1606860560422	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\lee_c\\AppData\\Local\\Temp\\rust_mozprofilef0Jvgw"
+1606860560422	mozrunner::runner	INFO	Running command:"C:\\Program Files\\Mozilla Firefox\\firefox.exe""--marionette""-headless""-foreground""-no-remote""-profile""C:\\Users\\lee_c\\AppData\\Local\\Temp\\rust_mozprofilef0Jvgw"
 *** You are running in headless mode.
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings:"get: No settings file exists, new profile?" (new Error("","(unknown module)"))
 1606860562736	Marionette	INFO	Listening on port 24164
 1606860563100	Marionette	WARN	TLS certificate errors will be ignored for this session
 1606860563615	Marionette	INFO	Stopped listening on port 24164
 1606860568449	geckodriver	INFO	Listening on 127.0.0.1:24218
-1606860571503	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\lee_c\\AppData\\Local\\Temp\\rust_mozprofilezgzoEK"
+1606860571503	mozrunner::runner	INFO	Running command:"C:\\Program Files\\Mozilla Firefox\\firefox.exe""--marionette""-headless""-foreground""-no-remote""-profile""C:\\Users\\lee_c\\AppData\\Local\\Temp\\rust_mozprofilezgzoEK"
 *** You are running in headless mode.
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings:"get: No settings file exists, new profile?" (new Error("","(unknown module)"))
 1606860573590	Marionette	INFO	Listening on port 24228
 1606860573633	Marionette	WARN	TLS certificate errors will be ignored for this session
 1606860574300	Marionette	INFO	Stopped listening on port 24228
@@ -114,35 +114,35 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
 1606860575016	geckodriver	INFO	Listening on 127.0.0.1:24274
-1606860578052	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\lee_c\\AppData\\Local\\Temp\\rust_mozprofilesLDtOg"
+1606860578052	mozrunner::runner	INFO	Running command:"C:\\Program Files\\Mozilla Firefox\\firefox.exe""--marionette""-headless""-foreground""-no-remote""-profile""C:\\Users\\lee_c\\AppData\\Local\\Temp\\rust_mozprofilesLDtOg"
 *** You are running in headless mode.
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings:"get: No settings file exists, new profile?" (new Error("","(unknown module)"))
 1606860580037	Marionette	INFO	Listening on port 24284
 1606860580081	Marionette	WARN	TLS certificate errors will be ignored for this session
 1606860580623	Marionette	INFO	Stopped listening on port 24284
 1606860661014	geckodriver	INFO	Listening on 127.0.0.1:24345
-1606860664067	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\lee_c\\AppData\\Local\\Temp\\rust_mozprofilefAw2nk"
+1606860664067	mozrunner::runner	INFO	Running command:"C:\\Program Files\\Mozilla Firefox\\firefox.exe""--marionette""-headless""-foreground""-no-remote""-profile""C:\\Users\\lee_c\\AppData\\Local\\Temp\\rust_mozprofilefAw2nk"
 *** You are running in headless mode.
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings:"get: No settings file exists, new profile?" (new Error("","(unknown module)"))
 1606860666186	Marionette	INFO	Listening on port 24353
 1606860666700	Marionette	WARN	TLS certificate errors will be ignored for this session
 1606860667407	Marionette	INFO	Stopped listening on port 24353
 1606860668140	geckodriver	INFO	Listening on 127.0.0.1:24408
-1606860671189	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\lee_c\\AppData\\Local\\Temp\\rust_mozprofileaSGDsE"
+1606860671189	mozrunner::runner	INFO	Running command:"C:\\Program Files\\Mozilla Firefox\\firefox.exe""--marionette""-headless""-foreground""-no-remote""-profile""C:\\Users\\lee_c\\AppData\\Local\\Temp\\rust_mozprofileaSGDsE"
 *** You are running in headless mode.
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings:"get: No settings file exists, new profile?" (new Error("","(unknown module)"))
 1606860673159	Marionette	INFO	Listening on port 24417
 1606860673221	Marionette	WARN	TLS certificate errors will be ignored for this session
 1606860673956	Marionette	INFO	Stopped listening on port 24417
 JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
 1606860712672	geckodriver	INFO	Listening on 127.0.0.1:24478
-1606860715704	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\lee_c\\AppData\\Local\\Temp\\rust_mozprofilesbbKSh"
+1606860715704	mozrunner::runner	INFO	Running command:"C:\\Program Files\\Mozilla Firefox\\firefox.exe""--marionette""-foreground""-no-remote""-profile""C:\\Users\\lee_c\\AppData\\Local\\Temp\\rust_mozprofilesbbKSh"
 Can't find symbol 'eglSwapBuffersWithDamageEXT'.
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings:"get: No settings file exists, new profile?" (new Error("","(unknown module)"))
 1606860718688	Marionette	INFO	Listening on port 24487
 1606860718836	Marionette	WARN	TLS certificate errors will be ignored for this session
 1606860720044	Marionette	INFO	Stopped listening on port 24487
@@ -150,10 +150,10 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
 1606860720911	geckodriver	INFO	Listening on 127.0.0.1:24545
-1606860723935	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\lee_c\\AppData\\Local\\Temp\\rust_mozprofilelV0QzG"
+1606860723935	mozrunner::runner	INFO	Running command:"C:\\Program Files\\Mozilla Firefox\\firefox.exe""--marionette""-foreground""-no-remote""-profile""C:\\Users\\lee_c\\AppData\\Local\\Temp\\rust_mozprofilelV0QzG"
 Can't find symbol 'eglSwapBuffersWithDamageEXT'.
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings:"get: No settings file exists, new profile?" (new Error("","(unknown module)"))
 1606860726891	Marionette	INFO	Listening on port 24553
 1606860727069	Marionette	WARN	TLS certificate errors will be ignored for this session
 1606860727592	Marionette	INFO	Stopped listening on port 24553
@@ -164,10 +164,10 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
 1606860785270	geckodriver	INFO	Listening on 127.0.0.1:24619
-1606860788298	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\lee_c\\AppData\\Local\\Temp\\rust_mozprofileU4eR6n"
+1606860788298	mozrunner::runner	INFO	Running command:"C:\\Program Files\\Mozilla Firefox\\firefox.exe""--marionette""-foreground""-no-remote""-profile""C:\\Users\\lee_c\\AppData\\Local\\Temp\\rust_mozprofileU4eR6n"
 Can't find symbol 'eglSwapBuffersWithDamageEXT'.
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings:"get: No settings file exists, new profile?" (new Error("","(unknown module)"))
 1606860791170	Marionette	INFO	Listening on port 24627
 1606860791439	Marionette	WARN	TLS certificate errors will be ignored for this session
 1606860797183	Marionette	INFO	Stopped listening on port 24627
@@ -178,10 +178,10 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
 1606860808740	geckodriver	INFO	Listening on 127.0.0.1:24686
-1606860811772	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\lee_c\\AppData\\Local\\Temp\\rust_mozprofile4d5clv"
+1606860811772	mozrunner::runner	INFO	Running command:"C:\\Program Files\\Mozilla Firefox\\firefox.exe""--marionette""-foreground""-no-remote""-profile""C:\\Users\\lee_c\\AppData\\Local\\Temp\\rust_mozprofile4d5clv"
 Can't find symbol 'eglSwapBuffersWithDamageEXT'.
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings:"get: No settings file exists, new profile?" (new Error("","(unknown module)"))
 1606860814603	Marionette	INFO	Listening on port 24694
 1606860814916	Marionette	WARN	TLS certificate errors will be ignored for this session
 1606914726757	Marionette	INFO	Stopped listening on port 24694
@@ -194,7 +194,7 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 Temp\\rust_mozprofileW9E4Zb"
 Can't find symbol 'eglSwapBuffersWithDamageEXT'.
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings:"get: No settings file exists, new profile?" (new Error("","(unknown module)"))
 1606860849486	Marionette	INFO	Listening on port 24762
 1606860849652	Marionette	WARN	TLS certificate errors will be ignored for this session
 1606860869633	Marionette	INFO	Stopped listening on port 24762
@@ -207,7 +207,7 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 Temp\\rust_mozprofile1fcesv"
 Can't find symbol 'eglSwapBuffersWithDamageEXT'.
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings:"get: No settings file exists, new profile?" (new Error("","(unknown module)"))
 1606860856550	Marionette	INFO	Listening on port 24821
 1606860856665	Marionette	WARN	TLS certificate errors will be ignored for this session
 1606860867139	Marionette	INFO	Stopped listening on port 24821
@@ -218,86 +218,124 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
 1607303671035	geckodriver	INFO	Listening on 127.0.0.1:2763
-1607303674076	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\lee_c\\AppData\\Local\\Temp\\rust_mozprofilesSKGTU"
+1607303674076	mozrunner::runner	INFO	Running command:"C:\\Program Files\\Mozilla Firefox\\firefox.exe""--marionette""-headless""-foreground""-no-remote""-profile""C:\\Users\\lee_c\\AppData\\Local\\Temp\\rust_mozprofilesSKGTU"
 *** You are running in headless mode.
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings:"get: No settings file exists, new profile?" (new Error("","(unknown module)"))
 1607303678088	Marionette	INFO	Listening on port 2771
 1607303678222	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
 Exiting due to channel error.
 Listening on 127.0.0.1:2820
-1607303681909	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\lee_c\\AppData\\Local\\Temp\\rust_mozprofile4ark3S"
+1607303681909	mozrunner::runner	INFO	Running command:"C:\\Program Files\\Mozilla Firefox\\firefox.exe""--marionette""-headless""-foreground""-no-remote""-profile""C:\\Users\\lee_c\\AppData\\Local\\Temp\\rust_mozprofile4ark3S"
 *** You are running in headless mode.
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings:"get: No settings file exists, new profile?" (new Error("","(unknown module)"))
 1607303684044	Marionette	INFO	Listening on port 2832
 1607303684218	Marionette	WARN	TLS certificate errors will be ignored for this session
 1607303684994	geckodriver	INFO	Listening on 127.0.0.1:2882
-1607303688006	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\lee_c\\AppData\\Local\\Temp\\rust_mozprofileMCxIjl"
+1607303688006	mozrunner::runner	INFO	Running command:"C:\\Program Files\\Mozilla Firefox\\firefox.exe""--marionette""-headless""-foreground""-no-remote""-profile""C:\\Users\\lee_c\\AppData\\Local\\Temp\\rust_mozprofileMCxIjl"
 *** You are running in headless mode.
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings:"get: No settings file exists, new profile?" (new Error("","(unknown module)"))
 1607303690153	Marionette	INFO	Listening on port 2891
 1607303690699	Marionette	WARN	TLS certificate errors will be ignored for this session
 [GFX1-]: Receive IPC close with reason=AbnormalShutdown
 Exiting due to channel error.
-er	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\lee_c\\AppData\\Local\\Temp\\rust_mozprofileW5BA0S"
+er	INFO	Running command:"C:\\Program Files\\Mozilla Firefox\\firefox.exe""--marionette""-headless""-foreground""-no-remote""-profile""C:\\Users\\lee_c\\AppData\\Local\\Temp\\rust_mozprofileW5BA0S"
 *** You are running in headless mode.
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings:"get: No settings file exists, new profile?" (new Error("","(unknown module)"))
 1607303730919	Marionette	INFO	Listening on port 2970
 1607303731376	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
 Exiting due to channel error.
 [GFX1-]: Receive IPC close with reason=AbnormalShutdown
-er	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\lee_c\\AppData\\Local\\Temp\\rust_mozprofileZeedqQ"
+er	INFO	Running command:"C:\\Program Files\\Mozilla Firefox\\firefox.exe""--marionette""-headless""-foreground""-no-remote""-profile""C:\\Users\\lee_c\\AppData\\Local\\Temp\\rust_mozprofileZeedqQ"
 *** You are running in headless mode.
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings:"get: No settings file exists, new profile?" (new Error("","(unknown module)"))
 1607303769289	Marionette	INFO	Listening on port 3059
 1607303769452	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
 Exiting due to channel error.
 Exiting due to channel error.
-7303814558	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\lee_c\\AppData\\Local\\Temp\\rust_mozprofileJPwfY9"
+7303814558	mozrunner::runner	INFO	Running command:"C:\\Program Files\\Mozilla Firefox\\firefox.exe""--marionette""-headless""-foreground""-no-remote""-profile""C:\\Users\\lee_c\\AppData\\Local\\Temp\\rust_mozprofileJPwfY9"
 *** You are running in headless mode.
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings:"get: No settings file exists, new profile?" (new Error("","(unknown module)"))
 1607303816709	Marionette	INFO	Listening on port 3140
 1607303817352	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
 1607303850516	geckodriver	INFO	Listening on 127.0.0.1:3224
-1607303853532	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\lee_c\\AppData\\Local\\Temp\\rust_mozprofileyimEVM"
+1607303853532	mozrunner::runner	INFO	Running command:"C:\\Program Files\\Mozilla Firefox\\firefox.exe""--marionette""-headless""-foreground""-no-remote""-profile""C:\\Users\\lee_c\\AppData\\Local\\Temp\\rust_mozprofileyimEVM"
 *** You are running in headless mode.
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings:"get: No settings file exists, new profile?" (new Error("","(unknown module)"))
 1607303855662	Marionette	INFO	Listening on port 3232
 1607303855851	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
 Exiting due to channel error.
 Exiting due to channel error.
-7303898671	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\lee_c\\AppData\\Local\\Temp\\rust_mozprofileusiJnc"
+7303898671	mozrunner::runner	INFO	Running command:"C:\\Program Files\\Mozilla Firefox\\firefox.exe""--marionette""-headless""-foreground""-no-remote""-profile""C:\\Users\\lee_c\\AppData\\Local\\Temp\\rust_mozprofileusiJnc"
 *** You are running in headless mode.
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings:"get: No settings file exists, new profile?" (new Error("","(unknown module)"))
 1607303900845	Marionette	INFO	Listening on port 3312
 1607303901349	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
 Exiting due to channel error.
 Listening on 127.0.0.1:3371
-1607303916625	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\lee_c\\AppData\\Local\\Temp\\rust_mozprofilegSkj0H"
+1607303916625	mozrunner::runner	INFO	Running command:"C:\\Program Files\\Mozilla Firefox\\firefox.exe""--marionette""-headless""-foreground""-no-remote""-profile""C:\\Users\\lee_c\\AppData\\Local\\Temp\\rust_mozprofilegSkj0H"
 *** You are running in headless mode.
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings:"get: No settings file exists, new profile?" (new Error("","(unknown module)"))
 1607303918738	Marionette	INFO	Listening on port 3381
 1607303919263	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+Exiting due to channel error.
+1607369044480	geckodriver	INFO	Listening on 127.0.0.1:4929
+1607369047533	mozrunner::runner	INFO	Running command:"C:\\Program Files\\Mozilla Firefox\\firefox.exe""--marionette""-headless""-foreground""-no-remote""-profile""C:\\Users\\lee_c\\AppData\\Local\\Temp\\rust_mozprofileL1syNX"
+*** You are running in headless mode.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings:"get: No settings file exists, new profile?" (new Error("","(unknown module)"))
+1607369051425	Marionette	INFO	Listening on port 4938
+1607369051679	Marionette	WARN	TLS certificate errors will be ignored for this session
+1607369225137	geckodriver	INFO	Listening on 127.0.0.1:5043
+1607369228158	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "Exiting due to channel error.
+Exiting due to channel error.
+a\\Local\\Temp\\rust_mozprofile9tAHOT"
+*** You are running in headless mode.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607369230292	Marionette	INFO	Listening on port 5051
+1607369230798	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1607369931138	geckodriver	INFO	Listening on 127.0.0.1:5729
+1607369934142	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\lee_c\\AppData\\Local\\Temp\\rust_mozprofileaVBpwt"
+*** You are running in headless mode.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607369936235	Marionette	INFO	Listening on port 5737
+1607369936272	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1607381752966	geckodriver	INFO	Listening on 127.0.0.1:1115
+1607381756021	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\lee_c\\AppData\\Local\\Temp\\rust_mozprofileBe0FrG"
+*** You are running in headless mode.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607381758084	Marionette	INFO	Listening on port 1123
+1607381758158	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+Exiting due to channel error.
 Exiting due to channel error.
