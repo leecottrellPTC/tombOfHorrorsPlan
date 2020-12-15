@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="{% static 'darkly.css' %}">
-    <title>Tomb of Horrors - {{ theChar.charname }}</title>
+    <title>To Battle! - {{ theBattle.charname }}</title>
 </head>
 
 <body>
@@ -33,32 +33,51 @@
         </div>
     </nav>
 
-    <h1 id="charname">Welcome {{ theChar.charname }}</h1>
+    <h1 id="charname">Welcome {{ theBattle.charname }}</h1>
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-2">
-                <img src="{% static 'images/tombMouth.jpg' %}" alt="Tomb Mouth" title="Tomb Mouth">
+                <img src="{{ theBattle.image_name }}" id="critterImg" class="image-fluid">
             </div>
-            <div class="col-md-10">
+            <div class="col-md-5">
                 <table class="table">
                     <tr>
                         <td width="25%">Hit points</td>
-                        <td id="hp">{{ theChar.hp }}</td>
+                        <td id="hp">{{ theBattle.charhp }}</td>
                     </tr>
                     <tr>
                         <td>Armor Class</td>
-                        <td id="ac">{{ theChar.ac }}</td>
+                        <td id="ac">{{ theBattle.charac }}</td>
                     </tr>
                 </table>
-                <form action="tobattle.html">
-                    <input type="submit" value="To Battle" class="btn-danger" id="battleBtn">
-                </form>
+            </div>
+            <div class="col-md-5">
+                <table class="table">
+                    <tr>
+                        <td>Monster Name</td>
+                        <td id="critterName">{{ theBattle.critname }}</td>
+                    </tr>
+                    <tr>
+                        <td>Hit points</td>
+                        <td id="critterHP">{{ theBattle.crithp }}</td>
+                    </tr>
+                    <tr>
+                        <td>Armor Class</td>
+                        <td id="critterAC">{{ theBattle.critac }}</td>
+                    </tr>
+                    <tr>
+                        <td>Damage</td>
+                        <td id="critterDam">{{ theBattle.critdam }}</td>
+                    </tr>
+                </table>
             </div>
         </div>
     </div>
 
-    
-    
+    <form method="POST">
+
+        <input type="submit" class="btn-primary" id="submit" name="submit" value="Do Damage">
+    </form>
     <!-- Option 2: jQuery, Popper.js, and Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>

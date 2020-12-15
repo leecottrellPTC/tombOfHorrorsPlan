@@ -1,4 +1,4 @@
-{% load static %}
+ {% load static %}
 <!doctype html>
 <html lang="en">
 
@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="{% static 'darkly.css' %}">
-    <title>Tomb of Horrors - {{ theChar.charname }}</title>
+    <title>Tomb of Horrors - {% block title_text %}{% endblock %}</title>
 </head>
 
 <body>
@@ -26,39 +26,26 @@
                 <li class="nav-item">
                     <a class="nav-link" href="lore.html">Lore</a>
                 </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="character.html">Character</a>
-                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="character.html">Character</a></li>
             </ul>
         </div>
     </nav>
-
-    <h1 id="charname">Welcome {{ theChar.charname }}</h1>
+    <h1>{% block header_text %}{% endblock %}</h1>
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-2">
                 <img src="{% static 'images/tombMouth.jpg' %}" alt="Tomb Mouth" title="Tomb Mouth">
             </div>
             <div class="col-md-10">
-                <table class="table">
-                    <tr>
-                        <td width="25%">Hit points</td>
-                        <td id="hp">{{ theChar.hp }}</td>
-                    </tr>
-                    <tr>
-                        <td>Armor Class</td>
-                        <td id="ac">{{ theChar.ac }}</td>
-                    </tr>
-                </table>
-                <form action="tobattle.html">
-                    <input type="submit" value="To Battle" class="btn-danger" id="battleBtn">
-                </form>
+                {% block body_content %}{% endblock %}
             </div>
         </div>
     </div>
 
-    
-    
+
+
+
     <!-- Option 2: jQuery, Popper.js, and Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>

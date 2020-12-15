@@ -38,5 +38,9 @@ class HomePageTest(TestCase):
         response = lore_page(request)
         html = response.content.decode('utf8')
         self.assertIn('src="/static/images/acererak.jpg"', html, 'Acererak image code not on page')
-        
+        #response = self.client.get('images/acererak.jpg')
+        #self.assertIn("200", response)
+
+
+
 
