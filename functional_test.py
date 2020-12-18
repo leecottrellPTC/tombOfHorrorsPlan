@@ -82,11 +82,6 @@ class FunctionalTest(unittest.TestCase):
         ac = self.browser.find_element_by_id("ac")
         self.assertEqual("15", ac.text,"AC is incorrect")
 
-
-
-
-        
-
 if __name__ == '__main__':
     #if calls the class if it is not instantiated elsewhere
     unittest.main()
